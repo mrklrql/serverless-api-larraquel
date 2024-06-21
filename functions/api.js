@@ -6,8 +6,7 @@ const cors = require('cors');
 
 const app = express();
 
-const dbCloudUrl = 'mongodb+srv://paulolarraquel7:jH46i0Jyk0Hlu21O@larraquel-db.mrli844.mongodb.net/apidb';
-
+const dbCloudUrl = 'mongodb+srv://marklarraquel07:w4RssurrgPivb4z2@larraquel-db.u1n9bne.mongodb.net/apidb';
 const dbLocalUrl = 'mongodb://localhost:27017/recipe-db'; 
 
 app.use(cors());
